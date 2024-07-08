@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul{list-style: none; display: block;} 
+a{text-decoration: none; color: #222;}
+img{width: 100%; height: 100%; object-fit: cover; display: block;}
+body{font-family: "SamYang", "Noto Sans KR", sans-serif;}

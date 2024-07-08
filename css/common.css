@@ -1,0 +1,295 @@
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header,section,footer{
+    width: 100%;
+    position: relative;
+}
+
+header{
+    height: 90px;
+    /* background-color: red; */
+}
+
+.section_1{
+    height: 100vh;
+}
+
+.section_2{
+    padding: 235px 0;
+}
+
+.section_3{
+    padding-bottom: 319px;
+}
+
+.section_4{
+    padding-top: 183px;
+    padding-bottom: 137px;
+    background-color: #F5F5F5;
+}
+
+.section_5{
+    padding: 226px 0;
+}
+
+.section_6{
+    padding-bottom: 100px;
+}
+
+footer{
+    background-color: #E9EDEF;
+
+}
+
+.sec_wrap{
+    max-width: 1750px;
+    padding: 0 165px;
+    margin: 0 auto;
+    /* background-color: yellowgreen; */
+}
+
+.sec_text{
+    margin-bottom: 100px;
+}
+
+.sec_text>h3{
+    font-size: 25px;
+    color: #219DCB;
+    margin-bottom: 20px;
+}
+
+.sec_text p{
+    font-size: 35px;
+    color: #333;
+    line-height: 45px;
+}
+
+.btn{
+    width: 227px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.btn>a{
+    font-size: 15px;
+    color: #666;
+    font-weight: 600;
+}
+
+.arrow{
+    width: 20px;
+    height: 13.34px;
+}
+
+.sec_5_btn{
+    width: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.sec_5_btn>a{
+    font-size: 15px;
+    color: #666;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+}
+
+.sec_5_mo_btn{
+    display: none;
+}
+
+.sec_6_btn{
+    width: 147.25px;
+    height: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.sec_6_btn>a{
+    font-size: 15px;
+    color: #666;
+    font-weight: 600;
+}
+
+.footer_btn{
+    display: none;
+}
+
+/* ================================================== 1200 start */
+@media all and (max-width:1200px) {
+    header{
+        height: 50px;
+    }
+
+    .section_2{
+        padding: 150px 0;
+        padding-bottom: 180px;
+    }
+
+    .section_3{
+        padding-bottom: 200px;
+    }
+
+    .section_5{
+        padding-top: 140px;
+    }
+
+    .sec_wrap{
+        padding: 0 65px;
+    }
+        
+    .sec_text{
+        margin-bottom: 65px;
+        /* background-color: orange; */
+    }
+    
+    .sec_text>h3{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .sec_text p{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+}
+
+/* ================================================== 1023 start */
+
+@media all and (max-width:1023px) {
+
+    .section_2{
+        padding: 100px 0;
+    }
+
+    .sec_text{
+        margin-bottom: 20px;
+    }
+    .sec2{
+        display: none;
+    }
+
+    .btn{
+        margin-top: 50px;
+    }
+
+    .sec_6_btn{
+        margin-top: 30px;
+    }
+
+    footer .sec_6_btn{
+        display: none;
+    }
+
+    .footer_btn{
+        display: block;
+    }
+
+    .footer_btn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        height: 38px;
+        background-color: #fff;
+        border-radius: 50px;
+        margin-bottom: 30px;
+    }
+
+    .footer_btn>a{
+        color: #666;
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .plus{
+        width: 12px;
+        margin-right: 20px;
+    }
+
+
+    
+}
+
+/* ================================================== 621 start */
+
+@media all and (max-width:621px) {
+
+    .section_2{
+        padding: 73px 0;
+    }
+
+    .sec_wrap{
+        padding: 0 20px;
+    }
+
+    .sec_text>h3{
+        font-size: 25px;
+    }
+
+    .section_3{
+        padding-bottom: 100px;
+    }
+
+    .section_4{
+        padding: 117px 0;
+    }
+
+    .section_5{
+        padding-top: 92px;
+        padding-bottom: 102px;
+    }
+
+    .section_6{
+        padding-bottom: 42px;
+    }
+    
+    .section_4 .btn{
+        width: 284px;
+        height: 38px;
+        border: 1px solid #00A3F1;
+        background-color: #fff;
+        border-radius: 50px;
+        justify-content: space-evenly;
+    }
+
+    .btn>a{
+        font-size: 13px;
+    }
+
+    .arrow{
+        width: 14px;
+        height: 9.34px;
+    }
+    
+    .sec_6_btn{
+        width: 150px;
+        height: 38px;
+        margin-left: 4%;
+        margin-top: 0;
+    }
+
+    .sec_6_btn>a{
+        font-size: 13px;
+    }
+
+    .footer_btn{
+        width: 100%;
+ 
+    }
+
+}
